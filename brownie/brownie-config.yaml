@@ -31,11 +31,11 @@ compiler:
     solc: 
       version: 0.8.6
       remappings:
-        - "@openzeppelin=/home/loophe/brownie/juiceBox/node_modules/@openzeppelin"
-        - "@chainlink=/home/loophe/brownie/juiceBox/node_modules/@chainlink"
-        - "@paulrberg=/home/loophe/brownie/juiceBox/node_modules/@paulrberg"
-        - "prb-math=/home/loophe/brownie/juiceBox/node_modules/prb-math"
-
+        - "@openzeppelin=/home/loophe/brownie/juice-contracts-v2/node_modules/@openzeppelin"
+        - "@chainlink=/home/loophe/brownie/juice-contracts-v2/node_modules/@chainlink"
+        - "@paulrberg=/home/loophe/brownie/juice-contracts-v2/node_modules/@paulrberg"
+        - "prb-math=/home/loophe/brownie/juice-contracts-v2/node_modules/prb-math"
+        
 wallets:
   from_key: ${PRIVATE_KEY}
   from_key1: ${PRIVATE_KEY1}
